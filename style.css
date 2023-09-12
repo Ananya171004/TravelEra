@@ -24,7 +24,7 @@ body{
     background-repeat: no-repeat;
     background-position:50%
     height:100vh;
-    background-size: cover;
+    background-size: contain;
 } 
 header{
     position: fixed;
