@@ -93,11 +93,11 @@ section{
 }
 .home{
     position:relative;
-    height: 100hv;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/bg2.jpg);
     background-size : cover;
-    background-position :bottom cover; 
+    background-position :bottom center; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
