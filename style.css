@@ -23,7 +23,7 @@ body{
     background:url("images/bg2.jpg");
     background-repeat: no-repeat;
     background-position:50%
-    height:100vh;
+    height:50vh;
     background-size: contain;
 } 
 header{
