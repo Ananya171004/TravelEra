@@ -22,8 +22,8 @@
 body{
     background:url("images/bg2.jpg");
     background-repeat: no-repeat;
-    background-position:50%
-    height:50vh;
+    background-position:100%
+    height:50%;
     background-size: contain;
 } 
 header{
@@ -96,7 +96,7 @@ section{
 }
 .home{
     position:relative;
-    height: 100vh;
+    height: 50%;
     width: 100%;
     background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/bg2.jpg);
     background-size : cover;
