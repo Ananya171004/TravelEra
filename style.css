@@ -96,7 +96,7 @@ section{
     height: 100%;
     width: 100%;
     background-image: linear-gradient(to Left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/bg2.jpg);
-    background-size : cover;
+    background-size : 100%;
     background-position : bottom center; 
     display: flex;
     align-items: center;
