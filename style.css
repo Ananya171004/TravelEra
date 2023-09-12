@@ -338,7 +338,7 @@ header.sticky{
 
 .newsletter-content form input:first-child{
     padding: 15px;
-    background: #202020;
+    background: #7b1abc;
     font-size: var(--p-font);
     color: var(--text-color);
     border-radius: 5px;
