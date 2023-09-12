@@ -95,13 +95,12 @@ section{
     position:relative;
     height: 100hv;
     width: 100%;
-    background-image: linear-gradient(cover, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/bg2.jpg);
+    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/bg2.jpg);
     background-size : cover;
     background-position :bottom cover; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-attachment: fixed;
 }
 .home-text h1{
     font-size: var(--h1-font);
