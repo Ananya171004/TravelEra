@@ -20,11 +20,8 @@
 }
 
 body{
-background:url("images/bg2.jpg");
-    background-repeat: no-repeat;
-    background-position:100%;
-    height:100vh;
-    background-size:cover;
+    color: var(--text-color);
+    background: var(--bg-color);
 } 
 header{
     position: fixed;
@@ -96,15 +93,14 @@ section{
 }
 .home{
     position:relative;
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/bg2.jpg);
+    background-image: linear-gradient(to Left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(../images/bg2.jpg);
     background-size : cover;
-    background-position :100vh; 
+    background-position : bottom center; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-repeat:no-repeat;
 }
 .home-text h1{
     font-size: var(--h1-font);
@@ -342,7 +338,7 @@ header.sticky{
 
 .newsletter-content form input:first-child{
     padding: 15px;
-    background: #7b1abc;
+    background: #202020;
     font-size: var(--p-font);
     color: var(--text-color);
     border-radius: 5px;
@@ -519,11 +515,4 @@ header.sticky{
         padding: 60px 3% 50px;
     }
 }
-
-
-
-
-
-
-
 
